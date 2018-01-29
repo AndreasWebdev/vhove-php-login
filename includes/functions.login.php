@@ -1,7 +1,7 @@
 <?php
   // Funktion zum einloggen
   function login($password) {
-    // Überprüft ob das übergebene Passwort "g3h31m" ist
+    // Überprüft ob das übergebene Passwort "glitzertutu" ist
     if($password == 'glitzertutu') {
       // Setzt Session auf "Wahr"
       $_SESSION['laan_login'] = true;
